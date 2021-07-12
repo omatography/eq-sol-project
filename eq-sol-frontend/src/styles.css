@@ -1,0 +1,332 @@
+
+/* Styles for the application */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+.home-body{
+    background: url('./images/Home-Bg.png') center center no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    min-width: 1000px;
+    min-height: 750px;
+
+    
+    
+}
+.home-container{
+    background-color: #202629;
+    width: 85%;
+    height: 90vh;
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+    min-height: 670px;
+    
+    
+    
+    
+}
+
+.navbar-home{
+    background-color: #202629;
+    height: 120px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.4s ease-in-out;
+
+}
+.navbar-home:hover{
+    transform: scale(1.01);
+    
+}
+.navbarhome-logo{
+    height: 50px;
+    transition: 0.2s ease-in-out;
+}
+.navbarhome-logo:hover{
+    transform: scale(1.05);
+}
+
+.homenavbar-icon{
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+    transition: 0.1s ease-in-out;
+    text-decoration: none;
+}
+
+.homenavbar-icon:hover{
+    color:#FC7E11;
+    text-decoration: none;
+    
+}
+.active{
+    color:#FC7E11;
+    
+}
+.spin{
+    font-size: 40px;
+    transition: .7s ease-in-out;
+}
+
+.spin:hover{
+    transform: rotate(360deg);
+}
+
+.home-heading{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 45px;
+}
+.home-para{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.home-icon{
+    width:150px;
+    margin-bottom: 14px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+.btn-home{
+    background-color: #E07C24;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 13px;
+    transition: 0.2s ease-in-out;
+    margin-top: 14px;
+}
+.btn-home:hover{
+    background-color: #c5640f;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 13px;
+}
+
+.card-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #202629;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+    margin: 20px;
+    
+    transition: 0.3s ease-in-out;
+
+}
+
+.card-box:hover{
+    transform: scale(1.02);
+}
+
+.card-content{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+.homebody-container{
+    width: 100%;
+}
+
+.container{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.about-logo{
+    width:200px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-logo:hover{
+    transform: scale(1.1);
+  
+}
+
+
+.about-box{
+    background-color: #202629;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+    padding: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-box:hover{
+    transform: scale(1.02);
+}
+.center{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.list-icon{
+    color: white;
+    text-decoration: none;
+}
+
+.list-icon:hover{
+    color: #dbdfe1;
+}
+
+.video-element{
+    margin-top: 15px;
+    width:100%;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.camera-btn{
+    background-color: #FC7E11;
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    border: 2px solid #FC7E11;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    top:-80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.camera-btn:hover{
+    background-color: #c5640f;
+    border: 2px solid #c5640f;
+
+    
+}
+.modal-content{
+    background-color: #202629;
+    border-radius: 50px;
+    
+
+}
+
+.modal-img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+}
+
+.upload-container{
+    width: 95%;
+    height: 500px;
+    border: 2px dashed #626566;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+
+
+}
+
+.ans-container{
+    margin:0 auto; width:90%; box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70); border-radius: 50px;
+}
+
+.ans-para{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 16px;
+}
+
+
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+    rgba(255, 255, 255, .2) 25%,
+	transparent 25%,
+    transparent 50%,rgba(255, 255, 255, .2) 50%,
+	rgba(255, 255, 255, .2) 75%,
+	transparent 75%,
+	transparent)
+}
+
+.modal{
+    min-width: 1000px;
+}
+
+.crop-image{
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    margin: 8px;
+    border: 8px solid #FC7E11;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #FC7E11 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
